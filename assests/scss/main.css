@@ -299,6 +299,9 @@ body {
 .price_box .item_center h2 {
   text-transform: uppercase;
 }
+.price_box .price_box-mid {
+  transform: translateY(2rem);
+}
 .price_box .item_center * {
   text-align: center;
 }
@@ -372,9 +375,22 @@ body {
     font-size: 1.8rem;
   }
 }
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .footertext {
     font-size: 1.2rem;
+  }
+  .row-design_gap h2 {
+    font-size: 3rem;
+  }
+  .main_heading-1 h1 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  .price_end h4 {
+    font-size: 2rem !important;
+  }
+  .price_end p {
+    font-size: 1.2rem !important;
   }
 }
 @media only screen and (max-width: 878px) {

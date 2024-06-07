@@ -842,8 +842,8 @@ $add_cart_color:#4e84c6;
     position: fixed;
     width: 45px;
     height: 45px;
-    bottom: 20px;
-    left: 16px;
+    bottom: 68px;
+    right: 16px;
     background-color: #25d366;
     color: #fff;
     border-radius: 50px;
@@ -852,7 +852,8 @@ $add_cart_color:#4e84c6;
     box-shadow: 2px 2px 3px #999;
     z-index: 300;
     display: grid;
-    filter: grayscale(100);
+    // filter: grayscale(100);
+    animation: blink 1s infinite;
 
     &:hover {
       filter: grayscale(0);
@@ -869,9 +870,20 @@ $add_cart_color:#4e84c6;
     }
   }
   .top-1 {
-    bottom: 80px;
+    bottom: 120px;
   }
   .my-float {
     align-self: center;
+  }
+  @keyframes blink {
+    0%{
+        opacity: 0.5;
+    }
+    50%{
+        opacity: 0.9;
+    }
+    100%{
+        opacity: 0.5;
+    }
   }
 }

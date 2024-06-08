@@ -1,4 +1,3 @@
-/* preheader */
 .pre-main{
   display: flex;
   flex-direction: row;
@@ -53,4 +52,10 @@ display: none;
   .head_paragraph .textNav{
   display: none;
 }
+}
+.ulset{
+  display: grid !important;
+  align-items: center;
+  padding-top: 0 !important;
+
 }
